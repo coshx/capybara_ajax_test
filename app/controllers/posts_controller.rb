@@ -46,7 +46,7 @@ class PostsController < ApplicationController
       @test_result = "Nope!"
     end
 
-    sleep 3
+    sleep 1
 
     respond_to do |format|
       format.js
