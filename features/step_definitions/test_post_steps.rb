@@ -5,3 +5,4 @@ end
 When /^I view that post$/ do
   visit "/posts/#{@post.id}"
 end
+

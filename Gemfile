@@ -29,4 +29,5 @@ group :development, :test do
 	 gem 'cucumber-rails'
 	 gem 'cucumber'
 	 gem 'launchy'
+	 gem 'database_cleaner'
 end
