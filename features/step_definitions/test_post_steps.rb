@@ -8,6 +8,9 @@ end
 
 Then /^I should see the test results$/ do
   page.wait_until(5) do
-    has_css? "span.test-results", :text => "OK", :visible => true
+    begin
+      has_css? ".test-results", :text => "OK", :visible => true
+    rescue ObsoleteElementError
+    end
   end
 end

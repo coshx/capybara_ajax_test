@@ -10,7 +10,9 @@
   <%= @post.body %>
 </p>
 
-<span class="test-results"></span>
+<span class="test-results-container">
+<span class="test-results">0</span>
+</span>
 
 <%= link_to 'Test', test_post_path(@post), :remote => true %> |
 <%= link_to 'Edit', edit_post_path(@post) %> |
